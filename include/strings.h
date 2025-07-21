@@ -199,6 +199,8 @@ extern const u8 gText_SaveCompleted[];
 extern const u8 gText_SaveFailed[];
 
 // menu texts
+extern const u8 gText_AM[];
+extern const u8 gText_PM[];
 extern const u8 gText_MenuPokedex[];
 extern const u8 gText_MenuPokemon[];
 extern const u8 gText_MenuBag[];
