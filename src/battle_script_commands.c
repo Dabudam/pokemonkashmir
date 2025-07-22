@@ -3892,24 +3892,24 @@ void SetMoveEffect(bool32 primary, bool32 certain)
                     switch (gBattleEnvironment)
                     {
                     case BATTLE_ENVIRONMENT_GRASS:
-                        gBattleScripting.moveEffect = (B_SECRET_POWER_EFFECT >= GEN_4 ? MOVE_EFFECT_SLEEP : MOVE_EFFECT_POISON);
+                        gBattleScripting.moveEffect = MOVE_EFFECT_POISON;//(B_SECRET_POWER_EFFECT >= GEN_4 ? MOVE_EFFECT_SLEEP : MOVE_EFFECT_POISON);
                         break;
                     case BATTLE_ENVIRONMENT_UNDERWATER:
-                        gBattleScripting.moveEffect = (B_SECRET_POWER_EFFECT >= GEN_6 ? MOVE_EFFECT_ATK_MINUS_1 : MOVE_EFFECT_DEF_MINUS_1);
+                        gBattleScripting.moveEffect = MOVE_EFFECT_DEF_MINUS_1;//(B_SECRET_POWER_EFFECT >= GEN_6 ? MOVE_EFFECT_ATK_MINUS_1 : MOVE_EFFECT_DEF_MINUS_1);
                         break;
                     case BATTLE_ENVIRONMENT_POND:
-                        gBattleScripting.moveEffect = (B_SECRET_POWER_EFFECT >= GEN_4 ? MOVE_EFFECT_ATK_MINUS_1 : MOVE_EFFECT_SPD_MINUS_1);
+                        gBattleScripting.moveEffect = MOVE_EFFECT_SPD_MINUS_1;//(B_SECRET_POWER_EFFECT >= GEN_4 ? MOVE_EFFECT_ATK_MINUS_1 : MOVE_EFFECT_SPD_MINUS_1);
                         break;
                     case BATTLE_ENVIRONMENT_MOUNTAIN:
-                        if (B_SECRET_POWER_EFFECT >= GEN_5)
+                        /*if (B_SECRET_POWER_EFFECT >= GEN_5)
                             gBattleScripting.moveEffect = MOVE_EFFECT_ACC_MINUS_1;
                         else if (B_SECRET_POWER_EFFECT >= GEN_4)
                             gBattleScripting.moveEffect = MOVE_EFFECT_FLINCH;
-                        else
+                        else*/
                             gBattleScripting.moveEffect = MOVE_EFFECT_CONFUSION;
                         break;
                     case BATTLE_ENVIRONMENT_PUDDLE:
-                        gBattleScripting.moveEffect = (B_SECRET_POWER_EFFECT >= GEN_5 ? MOVE_EFFECT_SPD_MINUS_1 : MOVE_EFFECT_ACC_MINUS_1);
+                        gBattleScripting.moveEffect = MOVE_EFFECT_SPD_MINUS_1;//(B_SECRET_POWER_EFFECT >= GEN_5 ? MOVE_EFFECT_SPD_MINUS_1 : MOVE_EFFECT_ACC_MINUS_1);
                         break;
                     case BATTLE_ENVIRONMENT_LONG_GRASS:
                         gBattleScripting.moveEffect = MOVE_EFFECT_SLEEP;
