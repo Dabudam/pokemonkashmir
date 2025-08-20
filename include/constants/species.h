@@ -968,6 +968,9 @@
 #define SPECIES_OVERQWIL                                904
 #define SPECIES_ENAMORUS                                SPECIES_ENAMORUS_INCARNATE
 #define SPECIES_ENAMORUS_INCARNATE                      905
+
+//Mega forms
+
 #define SPECIES_VENUSAUR_MEGA                           906
 #define SPECIES_CHARIZARD_MEGA_X                        907
 #define SPECIES_CHARIZARD_MEGA_Y                        908
@@ -1018,6 +1021,9 @@
 #define SPECIES_RAYQUAZA_MEGA                           953
 #define SPECIES_KYOGRE_PRIMAL                           954
 #define SPECIES_GROUDON_PRIMAL                          955
+
+//Alolan forms
+
 #define SPECIES_RATTATA_ALOLA                           956
 #define SPECIES_RATICATE_ALOLA                          957
 #define SPECIES_RAICHU_ALOLA                            958
@@ -1036,6 +1042,9 @@
 #define SPECIES_MUK_ALOLA                               971
 #define SPECIES_EXEGGUTOR_ALOLA                         972
 #define SPECIES_MAROWAK_ALOLA                           973
+
+//Galarian forms
+
 #define SPECIES_MEOWTH_GALAR                            974
 #define SPECIES_PONYTA_GALAR                            975
 #define SPECIES_RAPIDASH_GALAR                          976
