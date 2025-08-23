@@ -9488,6 +9488,22 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gShinyOverworldPalette_Lugia[] = INCBIN_U16("graphics/pokemon/lugia/overworld_shiny.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+    const u32 gMonFrontPic_Lugia_Shadow[] = INCBIN_U32("graphics/pokemon/lugia/shadow/anim_front.4bpp.lz");
+    const u16 gMonPalette_Lugia_Shadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/normal.gbapal");
+    const u32 gMonBackPic_Lugia_Shadow[] = INCBIN_U32("graphics/pokemon/lugia/shadow/back.4bpp.lz");
+    const u16 gMonShinyPalette_Lugia_Shadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/shiny.gbapal");
+    const u8 gMonIcon_Lugia_Shadow[] = INCBIN_U8("graphics/pokemon/lugia/shadow/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_Lugia[] = INCBIN_U8("graphics/pokemon/lugia/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_Lugia_Shadow[] = INCBIN_COMP("graphics/pokemon/lugia/shadow/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u16 gOverworldPalette_Lugia_Shadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/overworld_normal.gbapal");
+    const u16 gShinyOverworldPalette_Lugia_Shadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/overworld_shiny.gbapal");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_FAMILY_LUGIA
 
 #if P_FAMILY_HO_OH

@@ -1761,6 +1761,9 @@ $(POKEMONGFXDIR)/tyranitar/mega/overworld.4bpp: %.4bpp: %.png
 $(POKEMONGFXDIR)/lugia/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
+$(POKEMONGFXDIR)/lugia/shadow/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+
 $(POKEMONGFXDIR)/ho_oh/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
