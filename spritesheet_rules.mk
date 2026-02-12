@@ -405,6 +405,10 @@ $(OBJEVENTGFXDIR)/people/woman_5.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/youngster.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+#New NPCs
+$(OBJEVENTGFXDIR)/people/team_darkstone/damian.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 
 
 $(OBJEVENTGFXDIR)/pokemon_old/azumarill.4bpp: %.4bpp: %.png
