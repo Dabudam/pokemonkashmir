@@ -4702,3 +4702,7 @@ static const struct SpriteFrameImage sPicTable_MomFrlg[] = {
 };
 
 #endif // IS_FRLG
+
+/*static const struct SpriteFrameImage sPicTable_Damian[] = {
+    overworld_ascending_frames(gObjectEventPic_Damian, 2, 4),
+};*/
